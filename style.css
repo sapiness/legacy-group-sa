@@ -1,0 +1,298 @@
+
+
+#exCollapsingNavbar {
+    background-color: #ffffff !important;
+}
+
+.nav-link.link {
+    background: linear-gradient(to right, #8e44ad, #27ae60);
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+     font-weight: bold;
+    display: inline-block;
+}
+
+.nav-link.link:hover {
+    background: linear-gradient(to right, #27ae60, #8e44ad);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+body.menu-open {
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 28px;
+}
+
+.mbr-footer-content p strong, .mbr-footer-content strong{
+margin-bottom: 5px;
+}
+
+.text-white {
+color: #f5f6f2ba;
+}
+
+#msg-box1-2c H3 {
+    color: #f5f6f2;
+}
+
+#msg-box8-29 p {
+      color: #f5f6f2;
+}
+
+.text-warning {
+    color: #f5f6f2 !important;
+}
+
+    #exCollapsingNavbar .nav-link {
+        color: #f5f6f2 !important;
+        /* font-size: 1.5rem; */
+    }
+
+
+    .iconbox {
+    background: linear-gradient(135deg, #8c00c3, #00c18a); 
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    margin: 0 auto 15px; 
+}
+
+ img.animated{
+
+        width: 80px;
+        /* height: 30px; */
+    }
+
+    
+
+@media (max-width: 767px) {
+ .navbar-collapse {
+        background: #0e3b2c !important;
+        backdrop-filter: blur(15px);
+    }
+
+    #exCollapsingNavbar.collapse.in, 
+    #exCollapsingNavbar.collapsing {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;    
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh !important;
+        z-index: 999;
+        
+     
+        background: #ffffffde !important;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+
+         /* Gray Glass Background */
+        background: #ebebebde !important; 
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        
+        /* Full screen layout */
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+  #msg-box8-29 .mbr-section-title P {
+    font-size: 25px;
+}
+    .display-2 {
+        font-size: 25px;
+    }
+    #exCollapsingNavbar .nav-item {
+        margin: 15px 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+   #exCollapsingNavbar  .nav-link {
+  /* Standard colors: forestgreen and purple */
+  background-image: linear-gradient(to right, forestgreen, purple);
+  
+  display: inline-block;
+  padding: 10px 20px;
+  color: white; 
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+    
+    .navbar-toggler {
+        
+   
+   filter: invert(1); 
+        z-index: 1000;
+        position: relative;
+    }
+
+   img.animated{
+
+        width: 80px;
+        /* height: 30px; */
+    }
+
+.typewriter-text {
+       font-size: 23px;
+    }
+
+
+     .display-1 {
+        font-size: 36px;
+    }
+}
+
+
+/* @media (min-width: 450px) {
+ .display-1 {
+        font-size: 35px;
+    }
+
+    
+    .typewriter-text {
+       font-size: 17px;
+    }
+} */
+
+
+@media (max-width: 1050px) {
+.typewriter-text {
+       font-size: 30px;
+    }
+
+
+     .display-1 {
+        font-size: 45px;
+    }
+
+
+}
+
+@media (min-width: 1050px) {
+.display-1 {
+        font-size: 50px;
+    }
+
+    
+    .typewriter-text {
+       font-size: 40px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .display-1 {
+        font-size: 35px;
+    }
+    
+    .typewriter-text {
+       font-size: 17px;
+    }
+}
+
+/* Animation */
+  
+
+
+      /* 1. Typewriter styles for Hero */
+    @keyframes typing { from { width: 0 } to { width: 100% } }
+    @keyframes blink-caret { from, to { border-right-color: transparent } 50% { border-right-color: #8c00c3; } }
+    @keyframes hide-cursor { to { border-right-color: transparent; } }
+    @keyframes riseUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+    .typewriter-text {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: .12em solid #8c00c3;
+        animation: typing 3.5s steps(35, end) forwards, blink-caret .75s step-end infinite, hide-cursor 0.1s forwards 3.5s;
+        /* font-size: 40px; */
+    }
+    .rise-text { opacity: 0; animation: riseUp 1s ease-out forwards; font-size: 20px; color: #d9e6df; }
+
+   
+    /* Glass Accordion */
+
+
+#extAccordion1-34 .container {
+    /* background: linear-gradient(45deg, #8fb8a2, #2d5a40);  */
+   background:none;
+    padding: 50px;
+ } 
+
+/* Glassmorphism Panel Style */
+.accordion-group {
+    margin-bottom: 15px;
+}
+
+.panel-default {
+    background: rgba(255, 255, 255, 0.15) !important; /* Translucent white */
+    backdrop-filter: blur(12px); /* The "frosted" effect */
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2) !important; /* Thin highlight border */
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+/* Remove default Bootstrap borders/backgrounds */
+.panel-heading {
+    background: transparent !important;
+    border: none !important;
+    padding: 20px !important;
+}
+
+.panel-title a {
+    color: #ffffff !important; /* White text looks best on glass */
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+}
+
+.panel-body {
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.05); /* Slight contrast for the body */
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Hover effect */
+.panel-default:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Style for the plus/minus icons if you use them */
+.signSpan {
+    color: white;
+    float: right;
+}
