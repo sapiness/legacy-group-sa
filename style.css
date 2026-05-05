@@ -244,10 +244,9 @@ color: #f5f6f2ba;
 
 
 #extAccordion1-34 .container {
-    /* background: linear-gradient(45deg, #8fb8a2, #2d5a40);  */
-   background:none;
-    padding: 50px;
- } 
+    background: none;
+    padding: 30px;
+}
 
 /* Glassmorphism Panel Style */
 .accordion-group {
