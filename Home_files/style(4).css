@@ -705,9 +705,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   color: #fff; }
 
 @media (max-width: 767px) {
-  .mbr-section {
+  /* .mbr-section {
     padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+  } */
 
   .mbr-section-full {
     padding-bottom: 0;
